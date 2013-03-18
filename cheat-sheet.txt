@@ -17,6 +17,7 @@ M-,
 
 REPL, you are now *in* my namespace
 C-c M-p
+C-c M-n (for nrepl)
 
 Name your new shell
 C-u M-x shell
@@ -69,6 +70,7 @@ magit status
 cntrl-c g
 s - stage
 c - commit
+l - commit logs
 u - unstage
 k - undo change
 d - diff
