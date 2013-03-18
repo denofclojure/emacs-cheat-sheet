@@ -1,0 +1,114 @@
+Emacs hints
+-------------------------------------------
+Indent file:
+C-cn
+
+Bring up the repl
+C-c C-z
+
+Run the tests
+C-c ,
+
+Jump in to the function definition
+M-.
+
+Jump out of the function (previously jumped in to)
+M-,
+
+REPL, you are now *in* my namespace
+C-c M-p
+
+Name your new shell
+C-u M-x shell
+
+Kill whitespace up to the next thingy except for a space
+M-space
+
+Kill whitespace up to the next thingy
+M-\
+
+Jump forward by sexp
+C-M f
+
+Jump back by sexp
+C-M b
+
+Jump forward/back by paragraphs
+C-Shift [
+C-Shift ]
+
+Kill the thing in front of me
+C-M-k
+
+Kill whitespace back
+M-shift-6
+
+Transpose two lines
+C-M-t
+
+auto-complete
+M-/
+
+Paredit
+-------------------------------------------
+Kill enclosing
+M-s
+
+Take the thing I am and raise it up a level
+M-r
+
+Raise the next two things
+C-u 2, M-r
+
+Raise me me and all my underlings
+M-uparrow
+
+Magit - learn to love this
+-------------------------------------------
+magit status
+cntrl-c g
+s - stage
+c - commit
+u - unstage
+k - undo change
+d - diff
+
+highlight a region in a diff
+hit k to undo the partial change
+
+rgrep - refactoring for the rest of us
+-------------------------------------------
+to refresh the buffer
+g
+next match
+n
+previous match
+
+Go to the next match
+M-g M-n
+
+Go to the previous match
+M-g M-p
+
+Query replace in region
+M-%
+
+Tmux Hints
+-------------------------------------------
+Manage all connections:
+cntrl-z D
+
+Create new window
+C-z c
+
+Switch to window 1
+C-z 1
+
+Copy
+C-z [
+
+Select range
+C-space
+
+Paste
+C-z ]
