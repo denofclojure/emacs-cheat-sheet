@@ -16,8 +16,7 @@ Jump out of the function (previously jumped in to)
 M-,
 
 REPL, you are now *in* my namespace
-C-c M-p
-C-c M-n (for nrepl)
+C-c M-n (for nrepl, the one true repl)
 
 Name your new shell
 C-u M-x shell
@@ -74,6 +73,8 @@ l - commit logs
 u - unstage
 k - undo change
 d - diff
+F - pull
+P - push
 
 highlight a region in a diff
 hit k to undo the partial change
