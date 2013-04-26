@@ -9,6 +9,9 @@ C-c C-z
 Run the tests
 C-c ,
 
+Show docstring for the function we are currently on
+C-c C-d
+
 Jump in to the function definition
 M-.
 
