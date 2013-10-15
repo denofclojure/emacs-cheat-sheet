@@ -1,5 +1,14 @@
 Emacs hints
 -------------------------------------------
+Switch buffers:
+C-x o
+
+Bring up previous command:
+M-p
+
+Next command:
+M-n
+
 Indent file:
 C-cn
 
