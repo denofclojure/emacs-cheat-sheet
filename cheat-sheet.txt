@@ -1,22 +1,44 @@
-Emacs hints
+Basics
 -------------------------------------------
-Switch buffers:
+Save the current buffer
+C-x C-s
+
+Open a buffer
+C-x C-f
+
+Write a buffer
+C-x C-w
+
+Quit
+C-x C-c
+
+Cut (also known as kill)
+C-k
+
+Paste (also known as yank)
+C-y
+
+auto-complete
+M-/
+
+Navigation
+-------------------------------------------
+Split the screen horizontally into panes
+C-x 3
+
+Switch panes
 C-x o
 
-Bring up previous command:
-M-p
+Close the current pane
+C-x 0
 
-Next command:
-M-n
+Split the screen vertically into panes
+C-x 2
 
-Indent file:
-C-cn
-
-Bring up the repl
-C-c C-z
-
-Run the tests
-C-c ,
+Clojure Usage
+-------------------------------------------
+Start a REPL
+C-c M-j
 
 Show docstring for the function we are currently on
 C-c C-d
@@ -30,36 +52,23 @@ M-,
 REPL, you are now *in* my namespace
 C-c M-n (for nrepl, the one true repl)
 
-Name your new shell
-C-u M-x shell
+Bring up previous command
+M-p
 
-Kill whitespace up to the next thingy except for a space
-M-space
+Next command
+M-n
 
-Kill whitespace up to the next thingy
-M-\
+Navigate to the REPL (from a source file)
+C-c C-z
+
+Run the tests
+C-c ,
 
 Jump forward by sexp
 C-M f
 
 Jump back by sexp
 C-M b
-
-Jump forward/back by paragraphs
-C-Shift [
-C-Shift ]
-
-Kill the thing in front of me
-C-M-k
-
-Kill whitespace back
-M-shift-6
-
-Transpose two lines
-C-M-t
-
-auto-complete
-M-/
 
 Paredit
 -------------------------------------------
@@ -74,22 +83,6 @@ C-u 2, M-r
 
 Raise me me and all my underlings
 M-uparrow
-
-Magit - learn to love this
--------------------------------------------
-magit status
-cntrl-c g
-s - stage
-c - commit
-l - commit logs
-u - unstage
-k - undo change
-d - diff
-F - pull
-P - push
-
-highlight a region in a diff
-hit k to undo the partial change
 
 rgrep - refactoring for the rest of us
 -------------------------------------------
@@ -107,6 +100,31 @@ M-g M-p
 
 Query replace in region
 M-%
+
+Advanced
+-------------------------------------------
+Kill whitespace up to the next thingy except for a space
+M-space
+
+Kill whitespace up to the next thingy
+M-\
+
+Kill the thing in front of me
+C-M-k
+
+Kill whitespace back
+M-shift-6
+
+Transpose two lines
+C-M-t
+
+
+Name your new shell
+C-u M-x shell
+
+Jump forward/back by paragraphs
+C-Shift [
+C-Shift ]
 
 Tmux Hints
 -------------------------------------------
